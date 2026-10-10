@@ -1,0 +1,41 @@
+flowchart TD
+    classDef code fill:#e8eef7,stroke:#4a6fa5,color:#1b2a41
+    classDef llm fill:#fdf0e0,stroke:#d9822b,color:#4a2c0a
+    classDef human fill:#e6f4ea,stroke:#3a8f5c,color:#14321f
+    classDef stop fill:#f3f3f3,stroke:#888,color:#333,stroke-dasharray: 4 3
+
+    A[Incoming request<br/>form / email + attachments]:::code
+    B[1. Receive & normalise<br/>store raw message, extract attachment text]:::code
+    C{2. Duplicate?}:::code
+    C1[Link to existing case<br/>log and stop]:::stop
+    D[3. Classify<br/>fixed label list]:::llm
+    D1{Known type &<br/>confident?}:::code
+    E[4. Extract structured data<br/>schema-validated fields + sources]:::llm
+    F[5. Retrieve knowledge<br/>vector search over company docs]:::code
+    G[6. Check completeness<br/>rules table: required fields & documents]:::code
+    H[7. Draft response<br/>grounded in retrieved passages, citations checked]:::llm
+    I[8. Propose action<br/>create case, assign owner, set follow-up]:::code
+    J[9. Human review<br/>approve / edit / reject<br/>corrections recorded]:::human
+    J1[Rejected or escalated<br/>case parked for a person]:::stop
+    K[10. Execute<br/>lookup tool, create case, send reply<br/>idempotency keys + retries]:::code
+    L[(11. Audit log<br/>inputs, outputs, sources,<br/>corrections, cost, latency)]:::code
+    M[Evaluation set & dashboard]:::code
+
+    A --> B --> C
+    C -- yes --> C1
+    C -- no --> D --> D1
+    D1 -- no --> J
+    D1 -- yes --> E --> F --> G --> H --> I --> J
+    J -- approve --> K
+    J -- reject --> J1
+    K --> L
+    J1 --> L
+    C1 --> L
+    L --> M
+
+    subgraph Legend
+        direction LR
+        X1[Deterministic code]:::code
+        X2[LLM step, output validated by code]:::llm
+        X3[Human decision]:::human
+    end

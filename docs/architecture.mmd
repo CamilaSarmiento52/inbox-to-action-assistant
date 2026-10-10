@@ -1,0 +1,47 @@
+flowchart LR
+    classDef code fill:#e8eef7,stroke:#4a6fa5,color:#1b2a41
+    classDef llm fill:#fdf0e0,stroke:#d9822b,color:#4a2c0a
+    classDef human fill:#e6f4ea,stroke:#3a8f5c,color:#14321f
+    classDef store fill:#f6f2fa,stroke:#7a5aa6,color:#2e1f45
+
+    IN[Email in]:::code --> R[Classifier<br/>labels the email]:::llm
+    R --> S{Router<br/>one case part per label}:::code
+
+    subgraph Specialists["Specialist agents (one per category, own SOP + own tool permissions)"]
+        direction TB
+        Q[Quotation]:::llm
+        D[Product docs]:::llm
+        O[Order status]:::llm
+        C[Complaints]:::llm
+        SI[Supplier invoices]:::llm
+        IC[Invoice copies]:::llm
+        ON[Onboarding]:::llm
+        T[Technical questions]:::llm
+        OT[Other → human]:::code
+    end
+
+    S --> Q & D & O & C & SI & IC & ON & T & OT
+
+    subgraph Shared["Shared services"]
+        direction TB
+        RAG[(Library / RAG<br/>policies, SOPs, manuals<br/>+ catalogue index)]:::store
+        DB[(Filing cabinet / DB<br/>customers, orders, invoices,<br/>catalogue, prices)]:::store
+        RULES[Rules & checks in code<br/>required fields, pricing,<br/>verification, auto-send gate]:::code
+    end
+
+    Specialists -. "ask documentation" .-> RAG
+    Specialists -. "lookup tools" .-> DB
+    Specialists -. "validated by" .-> RULES
+
+    Specialists --> OUT{Outcome}:::code
+    OUT -- auto-send --> SEND[Reply sent]:::code
+    OUT -- clarify --> ASK[Question to customer]:::code
+    OUT -- draft / escalate --> H[Human review screen<br/>approve · edit · reject]:::human
+    H --> SEND
+
+    LOG[(Logbook / audit DB<br/>email, labels, agent, retrieved passages,<br/>decisions, sent text, human edits)]:::store
+    R --> LOG
+    Specialists --> LOG
+    OUT --> LOG
+    H --> LOG
+    LOG --> EV[Evaluation & dashboard<br/>compare each step with the expected answer]:::code

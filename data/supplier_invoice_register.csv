@@ -1,0 +1,5 @@
+register_id,supplier_id,supplier_name,supplier_vat_number,invoice_number,document_type,invoice_date,due_date,our_po_number,currency,net_total,vat_total,gross_total,credit_for_invoice,needs_attention,attention_reasons,source_email_id,stored_on
+R-0001,S-01,Polaris Labware Ltd,GB611204587,PL-24433,invoice,2026-09-15,2026-10-15,NLS-PO-26031,GBP,1240.00,248.00,1488.00,,no,,(earlier),2026-09-16
+R-0002,S-02,Halden Messtechnik GmbH,DE298711406,HMT-2026-0841,invoice,2026-08-28,2026-09-27,NLS-PO-26024,EUR,3360.00,0.00,3360.00,,no,,(earlier),2026-08-29
+R-0003,S-04,Fenmore Freight Ltd,GB559120743,FF-90377,invoice,2026-09-30,2026-10-30,,GBP,612.40,122.48,734.88,,no,,(earlier),2026-10-01
+R-0004,S-03,Ridgefield Nitrile Products Ltd,GB704338152,RN-77201,invoice,2026-09-22,2026-10-22,NLS-PO-26035,GBP,760.00,152.00,912.00,,no,,(earlier),2026-09-23

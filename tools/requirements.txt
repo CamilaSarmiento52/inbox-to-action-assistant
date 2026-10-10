@@ -1,0 +1,3 @@
+# Only for regenerating the fixtures in data/ (documents, invoices, scans, test emails).
+reportlab==5.0.0
+Pillow==12.1.0

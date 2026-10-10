@@ -1,0 +1,6 @@
+supplier_id,name,vat_number,email,address,supplies
+S-01,Polaris Labware Ltd,GB611204587,accounts@polaris-labware.example,"4 Kiln Lane, Stoke-on-Trent ST4 2RT","Tubes, containers, pipettes"
+S-02,Halden Messtechnik GmbH,DE298711406,invoices@halden-mt.example,"Industriestrasse 18, 70565 Stuttgart, Germany",Balances (AB-220)
+S-03,Ridgefield Nitrile Products Ltd,GB704338152,billing@ridgefield-nitrile.example,"Unit 9, Ridgefield Park, Wrexham LL13 9UF",Nitrile gloves
+S-04,Fenmore Freight Ltd,GB559120743,ar@fenmore-freight.example,"Depot 2, Marsh Road, Peterborough PE1 5XW",Courier services
+S-05,Kilbride Scientific Components Ltd,GB487902215,accounts@kilbride-sci.example,"22 Harbour Way, East Kilbride G74 5PG","Centrifuges, heaters, mixers (MC-12, HB-2, VM-10)"

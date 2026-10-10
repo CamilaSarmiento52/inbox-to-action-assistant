@@ -1,0 +1,57 @@
+phrase,maps_to,note
+manual,manual,"Operating, setup and troubleshooting guide; one per product, covers all versions"
+user manual,manual,
+instructions,manual,
+operating instructions,manual,
+user guide,manual,
+handbook,manual,
+how to use,manual,Only when no technical question is being asked
+quick start,manual,No separate quick-start guide is issued; send the manual and say it contains setup steps
+quick start guide,manual,As above
+spec,spec_sheet|datasheet,Equipment gets spec_sheet; consumables get datasheet
+specs,spec_sheet|datasheet,As above
+specification,spec_sheet|datasheet,As above
+specification sheet,spec_sheet|datasheet,As above
+spec sheet,spec_sheet|datasheet,As above
+data sheet,spec_sheet|datasheet,As above
+datasheet,spec_sheet|datasheet,As above
+technical data,spec_sheet|datasheet,As above
+tds,spec_sheet|datasheet,Technical data sheet; as above
+technical note,technical_note,
+tech note,technical_note,
+application note,technical_note,We issue technical notes; say so if the customer asked for an application note
+technical documentation,spec_sheet|datasheet|technical_note,"Keep the types the product has (SOP §3.1); send all that remain; none left is missing"
+certificate of analysis,certificate_of_analysis,"If a lot or batch number is given, it is lot-specific: send the typical-lot certificate, labelled as typical, and escalate to Technical / quality review (SOP §5)"
+coa,certificate_of_analysis,As above
+batch certificate,certificate_of_analysis,"Lot-specific; we hold typical-lot certificates only; send it, labelled as typical, and escalate to Technical / quality review (SOP §5)"
+lot certificate,certificate_of_analysis,As above
+analysis certificate,certificate_of_analysis,
+calibration certificate,calibration_certificate,Only a labelled sample exists; a unit's own goes to Technical / quality review
+cal cert,calibration_certificate,As above
+traceability certificate,calibration_certificate,As above
+certificate,certificate_of_analysis|calibration_certificate|declaration_of_conformity,"Keep the types the product has (SOP §3.1): one left, send it; none left, missing and escalate; several, ask"
+declaration of conformity,declaration_of_conformity,
+conformity,declaration_of_conformity,
+doc,declaration_of_conformity,"Only when it is clear the customer means conformity, not 'document'; otherwise ask (SOP §3.1)"
+compliance,declaration_of_conformity,Only when the meaning is clear; otherwise ask (SOP §3.1)
+ce certificate,none,We do not issue a CE certificate; treat as missing
+sds,safety_data_sheet,
+msds,safety_data_sheet,
+safety data sheet,safety_data_sheet,
+safety sheet,safety_data_sheet,
+hazard information,safety_data_sheet,Only when the meaning is clear; otherwise ask (SOP §3.1)
+iq,none,No IQ/OQ protocols are produced; treat as missing; Technical / quality review
+oq,none,As above
+iq/oq,none,As above
+validation protocol,none,As above
+validation documents,none,As above
+drawing,none,No drawings or CAD files are produced; treat as missing
+cad,none,As above
+brochure,none,No brochures are produced; treat as missing
+catalogue,reroute,"Not a product document; say we do not issue a printed catalogue and ask which of the product's documents they want, naming each, or ask which product (route: clarification)"
+price list,reroute,Not a document; hand this part to the quotation SOP
+documentation,all,"Every current, shareable document for the product"
+documents,all,As above
+paperwork,all,As above
+everything,all,As above
+all documents,all,As above

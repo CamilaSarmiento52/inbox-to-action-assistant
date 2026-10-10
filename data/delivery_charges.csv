@@ -1,0 +1,5 @@
+zone,zone_name,served,charge_gbp_ex_vat,free_delivery_from_gbp_ex_vat,lead_time_working_days_min,lead_time_working_days_max,notes
+1,Mainland England and Wales,yes,9.95,200.00,1,1,Next working day for in-stock items ordered before 1pm
+2,Mainland Scotland excluding Highlands and Islands,yes,12.95,250.00,1,1,Next working day for in-stock items ordered before 1pm
+3,Scottish Highlands and Islands and Northern Ireland,yes,29.95,500.00,3,5,
+NS,Channel Islands and Isle of Man,no,,,,,Not served; no delivery quoted

@@ -1,0 +1,5 @@
+rule_id,category,min_units,max_units,discount_percent,action,notes
+D1,Consumables,10,24,5,apply_discount,Units of sale of the same SKU
+D2,Consumables,25,49,10,apply_discount,Units of sale of the same SKU
+D3,Consumables,50,,15,apply_discount,Units of sale of the same SKU; maximum automatic discount
+D4,Equipment,2,,,refer_to_sales,No automatic discount; Sales decides

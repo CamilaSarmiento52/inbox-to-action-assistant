@@ -1,0 +1,7 @@
+register_id,line_no,description,quantity,unit_price,line_total
+R-0001,1,"Microcentrifuge tubes 1.5 ml, bag of 500",100,6.20,620.00
+R-0001,2,"Conical centrifuge tubes 50 ml, pack of 25",50,8.40,420.00
+R-0001,3,"Specimen containers 60 ml, pack of 100",20,10.00,200.00
+R-0002,1,"AB-220 analytical balance, standard",8,420.00,3360.00
+R-0003,1,"Courier collections, September",1,612.40,612.40
+R-0004,1,"Nitrile examination gloves, powder-free, size M, case of 10 boxes",20,38.00,760.00

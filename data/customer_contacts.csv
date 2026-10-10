@@ -1,0 +1,36 @@
+contact_id,customer_id,name,email,role,authorised_for
+K-2001,C-1001,Priya Raman,priya.raman@northbridge-uni.example,Purchasing Manager,orders; invoices
+K-2002,C-1001,Tom Hargreaves,tom.hargreaves@northbridge-uni.example,Lab Technician,orders
+K-2003,C-1001,Helen Whitcombe,helen.whitcombe@northbridge-uni.example,Finance Officer,invoices
+K-2004,C-1002,Marcus Bellamy,marcus.bellamy@eastgate-uni.example,Lab Manager,orders; invoices
+K-2005,C-1002,Ruth Ellison,ruth.ellison@eastgate-uni.example,Departmental Administrator,orders; invoices
+K-2006,C-1003,Sarah Fenwick,sarah.fenwick@harcourt-academy.example,Science Technician,orders
+K-2007,C-1003,Gareth Pugh,gareth.pugh@harcourt-academy.example,Finance Manager,orders; invoices
+K-2008,C-1004,Janet Oldroyd,janet.oldroyd@ashbourne-grammar.example,School Business Manager,orders; invoices
+K-2009,C-1005,Imran Qureshi,imran.qureshi@riverside-medlabs.example,Procurement Lead,orders; invoices
+K-2010,C-1005,Katie Dunmore,katie.dunmore@riverside-medlabs.example,Lab Supervisor,orders
+K-2011,C-1005,Neil Strachan,neil.strachan@riverside-medlabs.example,Accounts,invoices
+K-2012,C-1006,Fiona Gallagher,fiona.gallagher@calder-pathology.example,Operations Manager,orders; invoices
+K-2013,C-1006,Adebayo Adeyemi,adebayo.adeyemi@calder-pathology.example,Biomedical Scientist,orders
+K-2014,C-1007,Lucy Penhale,lucy.penhale@brackenridge-diag.example,Lab Manager,orders; invoices
+K-2015,C-1007,Rob Sandford,rob.sandford@brackenridge-diag.example,Accounts,invoices
+K-2016,C-1008,Anita Verma,anita.verma@thornfield-institute.example,Research Operations Lead,orders; invoices
+K-2017,C-1008,Callum Reid,callum.reid@thornfield-institute.example,Technician,orders
+K-2018,C-1008,Joanne Teague,joanne.teague@thornfield-institute.example,Finance,invoices
+K-2019,C-1009,Ben Aldous,ben.aldous@meridian-bioanalytics.example,Director,orders; invoices
+K-2020,C-1010,Stephen Maddox,stephen.maddox@kestrel-env.example,Managing Director,orders; invoices
+K-2021,C-1010,Gwen Probert,gwen.probert@kestrel-env.example,Office Manager,orders
+K-2022,C-1011,Claire Tilling,claire.tilling@greenacre-water.example,Owner,orders; invoices
+K-2023,C-1012,Hugh Lanyon,hugh.lanyon@tamar-marine.example,Lab Manager,orders; invoices
+K-2024,C-1012,Mel Trevithick,mel.trevithick@tamar-marine.example,Administrator,orders
+K-2025,C-1013,Alasdair Menzies,alasdair.menzies@brackenridge-scotland.example,Lab Manager,orders; invoices
+K-2026,C-1013,Eilidh Cowan,eilidh.cowan@brackenridge-scotland.example,Accounts,invoices
+K-2027,C-1014,Isla Drummond,isla.drummond@clydeside-uni.example,Research Coordinator,orders; invoices
+K-2028,C-1014,Kenny Baird,kenny.baird@clydeside-uni.example,Technician,orders
+K-2029,C-1014,Sheila Rennie,sheila.rennie@clydeside-uni.example,Finance,invoices
+K-2030,C-1015,Morag Sinclair,morag.sinclair@tayside-tech.example,Technical Services Manager,orders; invoices
+K-2031,C-1016,Euan MacRae,euan.macrae@dornoch-aqua.example,Station Manager,orders; invoices
+K-2032,C-1016,Shona Fraser,shona.fraser@dornoch-aqua.example,Administrator,orders
+K-2033,C-1017,Ciaran Doherty,ciaran.doherty@lougherne-analytical.example,Director,orders; invoices
+K-2034,C-1017,Niamh Hegarty,niamh.hegarty@lougherne-analytical.example,Lab Analyst,orders
+K-2035,C-1018,Fraser Linklater,fraser.linklater@orkney-marine.example,Operations Manager,orders; invoices
