@@ -6,7 +6,7 @@ The company is **Northfield Lab Supply**, a fictional UK distributor of laborato
 
 ## Status
 
-Documentation and evaluation data are complete. Implementation has not started; the plan is in [`specs/`](specs/) once agreed.
+Documentation and evaluation data are complete. Implementation has not started. The plan is in [`specs/`](specs/): [mission](specs/mission.md), [tech stack](specs/tech-stack.md) and [roadmap](specs/roadmap.md).
 
 | Done | Where |
 | --- | --- |

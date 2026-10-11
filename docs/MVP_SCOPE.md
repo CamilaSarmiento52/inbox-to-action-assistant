@@ -6,7 +6,7 @@ This file records the agreed high-level handling across the eight categories. It
 
 ## Relationship to the proof of concept
 
-The [classification PoC](PROOF_OF_CONCEPT.md) evaluates all eight categories, including mixed-request emails, using deterministic exact-match grading against human-reviewed labels. Jev and a general LLM with a structured-output prompt are compared on the same set. The success targets (90% exact match overall, 85% on mixed emails) are set in [EVALUATION.md](EVALUATION.md).
+The [classification PoC](PROOF_OF_CONCEPT.md) evaluates all eight categories, including mixed-request emails, using deterministic exact-match grading against human-reviewed labels. Jev and the OpenAI Decisions API on GPT-6 Luna are compared on the same set (decided 2026-10-11; replaces a general LLM with a structured-output prompt). The success targets (90% exact match overall, 85% on mixed emails) are set in [EVALUATION.md](EVALUATION.md).
 
 The MVP builds on classification to handle the requests described below using company records and SOPs. Classification covers all eight categories from the start; handling capabilities can be implemented incrementally, beginning with quotations.
 

@@ -1,6 +1,6 @@
 # Knowledge sources
 
-Decided 2026-10-06. Where each kind of company knowledge lives and which categories consult it. To feed `specs/tech-stack.md` once the specs are created (the `specs/` folder does not exist yet).
+Decided 2026-10-06. Where each kind of company knowledge lives and which categories consult it. Fed into [`specs/tech-stack.md`](../specs/tech-stack.md) §4 (2026-10-11).
 
 ## Vector store: two indexes
 

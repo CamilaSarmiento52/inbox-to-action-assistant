@@ -4,7 +4,7 @@
 
 Evaluate how accurately the model distinguishes between the eight email categories, including emails containing multiple requests that belong to different categories.
 
-Jev by TypeSafe AI is the initial model selected for evaluation. It is compared with a general LLM using a structured-output prompt, on the same set and with the same grader ([EVALUATION.md](EVALUATION.md)). This PoC evaluates classification capability; it does not implement the full email-assistant workflow.
+Jev by TypeSafe AI is the initial model selected for evaluation. It is compared with the OpenAI Decisions API on GPT-6 Luna (decided 2026-10-11), another decision model, replacing the earlier plan of a general LLM with a structured-output prompt, on the same set and with the same grader ([EVALUATION.md](EVALUATION.md)). This PoC evaluates classification capability; it does not implement the full email-assistant workflow.
 
 ## Categories
 
